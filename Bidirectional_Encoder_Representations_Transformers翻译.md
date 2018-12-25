@@ -1,15 +1,3 @@
----
-title: BERT Pre-training of Deep Bidirectional Transformers for Language Understanding 翻译
-date: 2018-12-25 09:30:00
-categories:
-- 论文
-- 论文写作
-tags:
-- BERT
-mathjax: true
----
-
-
 # BERT：预训练的深度双向 Transformer 语言模型
 Jacob Devlin；Ming-Wei Chang；Kenton Lee；Kristina Toutanova
 Google AI Language
