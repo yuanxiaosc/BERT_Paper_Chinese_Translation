@@ -1,13 +1,19 @@
 **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding 论文的中文翻译**
 1. 本资源完整的翻译了论文，并且给出了论文中所有引用资料的网络连接，方便对 BERT 感兴趣的朋友们进一步研究 BERT；
 2. 以下内容是部分预览内容，完整内容查看本资源中的 [Bidirectional_Encoder_Representations_Transformers翻译.md](Bidirectional_Encoder_Representations_Transformers翻译.md)；
-3. 转载请注明出处，商用请联系作者 wangzichaochaochao@gmail.com。
+3. BERT论文翻译 [PDF版下载](BERT Pre-training of Deep Bidirectional Transformers for Language Understanding 翻译.pdf)；
+4. 转载请注明出处，商用请联系译者 wangzichaochaochao@gmail.com。
 
 # BERT：预训练的深度双向 Transformer 语言模型
 Jacob Devlin；Ming-Wei Chang；Kenton Lee；Kristina Toutanova
 Google AI Language
 {jacobdevlin,mingweichang,kentonl,kristout}@google.com
 
+![](Bidirectional_Encoder_Representations_Transformers翻译/figure_1.png)
+> 图 1：预训练模型结构的不同。BERT 使用双向 Transformer。OpenAI GPT 使用 从左到右的 Transformer。ELMo 使用独立训练的从左到右和从右到左的 LSTM 的连接来为下游任务生成特征。其中，只有 BERT 表示在所有层中同时受到左右语境的制约。
+
+![](Bidirectional_Encoder_Representations_Transformers翻译/figure_2.png)
+> 图 2：BERT 的输入表示。输入嵌入是标记嵌入（词嵌入）、句子嵌入和位置嵌入的总和。
 
 ## 摘要
 我们提出了一种新的称为 BERT 的语言表示模型，BERT 代表来自 Transformer 的双向编码器表示（**B**idirectional **E**ncoder **R**epresentations from **T**ransformers）。不同于最近的语言表示模型（[Peters et al., 2018](https://arxiv.org/abs/1802.05365v2)，[Radford et al., 2018](https://blog.openai.com/language-unsupervised/)）， BERT 旨在通过联合调节所有层中的左右上下文来预训练深度双向表示。因此，只需要一个额外的输出层，就可以对预训练的 BERT 表示进行微调，从而为广泛的任务（比如回答问题和语言推断任务）创建最先进的模型，而无需对特定于任务进行大量模型结构的修改。
