@@ -1,7 +1,7 @@
 **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding 论文的中文翻译**
 1. 本资源完整的翻译了论文，并且给出了论文中所有引用资料的网络连接，方便对 BERT 感兴趣的朋友们进一步研究 BERT；
 2. 以下内容是部分预览内容，完整内容查看本资源中的 [Bidirectional_Encoder_Representations_Transformers翻译.md](Bidirectional_Encoder_Representations_Transformers翻译.md)；
-3. BERT论文翻译 [PDF版下载](BERT Pre-training of Deep Bidirectional Transformers for Language Understanding 翻译.pdf)；
+3. BERT论文翻译 [PDF版下载](BERT中文翻译PDF版.pdf)；
 4. 转载请注明出处，商用请联系译者 wangzichaochaochao@gmail.com。
 
 # BERT：预训练的深度双向 Transformer 语言模型
